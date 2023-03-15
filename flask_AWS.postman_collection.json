@@ -1,0 +1,351 @@
+{
+	"info": {
+		"_postman_id": "bfceff06-b722-41d2-b0ce-e2e7aa2351bf",
+		"name": "flask_AWS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35034024"
+	},
+	"item": [
+		{
+			"name": "warmup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/warmup",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"warmup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "scaled_ready",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/scaled_ready",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"scaled_ready"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_warmup_cost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ji9l7maz08.execute-api.us-east-1.amazonaws.com/default/get_warmup_cost",
+					"protocol": "https",
+					"host": [
+						"ji9l7maz08",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"default",
+						"get_warmup_cost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_endpoints",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get_endpoints",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get_endpoints"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "analyze",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"h\": 101,\r\n    \"d\": 10000,\r\n    \"t\": \"sent\",\r\n    \"p\": 7\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/analyze",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"analyze"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_sig_vars9599",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get_sig_vars9599",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get_sig_vars9599"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_avg_vars9599",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get_avg_vars9599",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get_avg_vars9599"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_sig_profit_loss",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get_sig_profit_loss",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get_sig_profit_loss"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_tot_profit_loss",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get_tot_profit_loss",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get_tot_profit_loss"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_chart_url",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ji9l7maz08.execute-api.us-east-1.amazonaws.com/default/get_chart_url",
+					"protocol": "https",
+					"host": [
+						"ji9l7maz08",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"default",
+						"get_chart_url"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_time_cost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get_time_cost",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get_time_cost"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_audit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get_audit",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get_audit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reset",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/reset",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"reset"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "terminate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/terminate",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"terminate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "scaled_terminated",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/scaled_terminated",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"scaled_terminated"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
